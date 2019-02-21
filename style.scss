@@ -1,0 +1,52 @@
+.content{
+    background:#f1f1f9;
+    height: 353px;
+}
+.title{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+      background-color:#f1f1f9;
+    margin-bottom: 18px;
+}
+h1{
+    font-size: 24px;
+    font-weight: bold;
+    color: darkblue;
+}
+a{
+    color: orange;
+    text-decoration: none;
+}
+.img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+      background-color:#f1f1f9;
+    height: 287px;
+    .mag_city{
+        align-items: flex-end;
+    }
+}
+.mag{
+    background-color: #ffffff;
+    height: 287px;
+    width: 172px;
+    justify-content: center;
+}
+img{
+  max-width: 162px;
+  max-height: 171px;
+ justify-content: center;
+}
+.mag_text{
+    margin-bottom: 80px;
+    color:cornflowerblue;
+}
+
+.mag_city{
+    float: none;
+    color: orange;
+     margin:0;
+    padding:0;
+}
